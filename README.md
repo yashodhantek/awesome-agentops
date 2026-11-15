@@ -87,6 +87,7 @@ Agents act through tools, so who-can-do-what belongs in policy, not in the promp
 - [Open Policy Agent](https://github.com/open-policy-agent/opa) - General-purpose policy engine (Rego). A good fit for checking each tool call before it runs.
 - [Cedar](https://github.com/cedar-policy/cedar) - Fast, analysable authorisation policy language from AWS.
 - [Gatekeeper](https://github.com/open-policy-agent/gatekeeper) - OPA for Kubernetes admission control, useful when agents deploy or change infrastructure.
+- [Tenuo](https://github.com/tenuo-ai/tenuo) - Task-scoped authorisation tokens for agents. A token limits tools and arguments, and each delegation can only narrow it.
 
 ## Gateways and cost control
 
